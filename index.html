@@ -6,25 +6,22 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,600,800,900"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,600,800,900" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 <div id="base-container" class="container">
     <header class="row">
-        <section class="col-md-6">
+        <section class="col-md-6 col-xs-6">
             <figure>
                 <picture>
-                    <img src="images/logo-medium.png" alt="logo">
+                    <img class="logo" src="images/logo-medium.png" alt="logo">
                 </picture>
             </figure>
         </section>
-        <section class="col-md-6 text-right">
-            <h1 class="text-thin title-super">Nekki T</h1>
+        <section class="col-md-6 col-xs-6 text-right name-title">
+            <h1 class="text-thin title-super">Hideki Tanaka</h1>
             <h4>Senior Software Developer</h4>
         </section>
     </header>
@@ -34,7 +31,7 @@
         </div>
     </div>
     <main class="row">
-        <section class="col-md-12">
+        <section class="row jumbotron-wrapper">
             <div id="jumbotron" class="col-md-12 img-responsive text-center">
                 <h2>Go for the world!!</h2>
             </div>
@@ -48,20 +45,80 @@
                 </div>
             </header>
             <div id="list" class="row">
-                <article class="col-md-4 text-center">
-                    <header>
-                        <h3>On the map</h3>
-                    </header>
+                <article class="col-xs 12 col-md-4 text-center">
+                    <div class="article-container">
+                        <a class="work-item item-header" href="#">
+                            <header>
+                                <h3>On the map</h3>
+                                <div class="source-link">
+                                    http://fake.com/source/nekki/01
+                                </div>
+                            </header>
+                        </a>
+                        <figure>
+                            <picture>
+                                <img class="img-responsive item-image" src="images/onthemap-medium.png" alt="On the map, swift work">
+                            </picture>
+                        </figure>
+                        <a class="work-item item-footer" href="#">
+                            <footer>
+                                <h3>On the map</h3>
+                                <div class="source-link">
+                                    http://fake.com/source/nekki/01
+                                </div>
+                            </footer>
+                        </a>
+                    </div>
                 </article>
-                <article class="col-md-4 text-center">
-                    <header>
-                        <h3>Virtual Tourist</h3>
-                    </header>
+                <article class="col-xs 12 col-md-4 text-center">
+                    <div class="article-container">
+                        <a class="work-item item-header" href="#">
+                            <header>
+                                <h3>Virtual Tourist</h3>
+                                <div class="source-link">
+                                    http://fake.com/source/nekki/02
+                                </div>
+                            </header>
+                        </a>
+                        <figure>
+                            <picture>
+                                <img class="img-responsive item-image" src="images/virtual_tourist-medium.png" alt="Virtual Tourist, swift work">
+                            </picture>
+                        </figure>
+                        <a class="work-item item-footer" href="#">
+                            <footer>
+                                <h3>Virtual Tourist</h3>
+                                <div class="source-link">
+                                    http://fake.com/source/nekki/02
+                                </div>
+                            </footer>
+                        </a>
+                    </div>
                 </article>
-                <article class="col-md-4 text-center">
-                    <header>
-                        <h3>Prash Card</h3>
-                    </header>
+                <article class="col-xs 12 col-md-4 text-center">
+                    <div class="article-container">
+                        <a class="work-item item-header" href="#">
+                            <header>
+                                <h3>Prash Card</h3>
+                                <div class="source-link">
+                                    http://fake.com/source/nekki/03
+                                </div>
+                            </header>
+                        </a>
+                        <figure>
+                            <picture>
+                                <img class="img-responsive item-image" src="images/prashcard-medium.png" alt="Prash Card, my capstone for iOS ND">
+                            </picture>
+                        </figure>
+                        <a class="work-item item-footer" href="#">
+                            <footer>
+                                <h3>Prash Card</h3>
+                                <div class="source-link">
+                                    http://fake.com/source/nekki/03
+                                </div>
+                            </footer>
+                        </a>
+                    </div>
                 </article>
             </div>
         </section>
