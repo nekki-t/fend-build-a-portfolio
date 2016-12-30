@@ -7,13 +7,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     color: darkblue;
     font-weight: 300;
     height: 100vh;
-    background-image: -moz-linear-gradient(top, #C0C0C0, #808080);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #C0C0C0), color-stop(1.0, #808080));
-    background-color: #DDDDDD;
+    background-image: -moz-linear-gradient(top, #c0c0c0, #808080);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #c0c0c0), color-stop(1.0, #808080));
+    background-color: #dddddd;
 }
 
 #base-container {
@@ -82,7 +82,7 @@ header img.logo {
 }
 
 .featured-work h2 {
-    padding: 10px 20px 0;
+    padding: 10px 10px 0;
     margin-bottom: 0;
     font-size: 40px;
     font-weight: 400;
@@ -91,7 +91,7 @@ header img.logo {
 }
 
 .featured-work div#list {
-    padding: 0 40px 0;
+    padding: 0 30px 0;
 }
 
 .featured-work div#list article div.article-container {
@@ -155,7 +155,7 @@ header img.logo {
 }
 
 .text-muted {
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 
 .text-thin {
